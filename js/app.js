@@ -1,3 +1,7 @@
+// TO DO:
+// When probability is NaN show a user friendly message
+// Encapsulate console text change in a function to remove duplicated code
+
 const classifier = knnClassifier.create();
 const webcamElement = document.getElementById('webcam');
 
